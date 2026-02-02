@@ -8,6 +8,14 @@ package chapter1;
  *
  * @author tu650
  */
-public class Test {
+public class Test<T> {
+    private T value;
+    public void set (T value){
+        this.value = value;
+    }
+    public T get(){
+        return value;
+    }
+    
     
 }
